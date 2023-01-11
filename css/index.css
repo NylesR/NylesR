@@ -3,6 +3,19 @@
     color:brown;
 }
 
+h1{
+    text-align: center;
+}
+
+.example.p{
+    text-align: center;
+}
+
+.example.ul{
+    text-align: left;
+}
+
+
 .dog{
     height: auto;
     width: 150px;
