@@ -1,10 +1,16 @@
 * {
     background-color:beige;
     color:brown;
+    border: 2px solid red;
+    box-sizing: border-box;
 }
 
 h1{
     text-align: center;
+    margin: 16px;
+    padding: 0px;
+    height: auto;
+    width: 250;
 }
 
 .example.p{
@@ -13,8 +19,16 @@ h1{
 
 .example.ul{
     text-align: left;
+    margin:10px;
 }
 
+.example.ul ul{
+    margin: 10px;
+}
+
+.example.ul ul li{
+    margin: 4px;
+}
 
 .dog{
     height: auto;
