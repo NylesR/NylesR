@@ -34,3 +34,7 @@ h1{
     height: auto;
     width: 150px;
 }
+
+.flex-box-container{
+    display: flexbox;
+}
