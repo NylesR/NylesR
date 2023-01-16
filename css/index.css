@@ -76,23 +76,57 @@ header{
     border-radius: 20px;
 }
 
+.random-information{
+    padding: 1.75% 0% 6.5% 0%;
+}
+
+.random-text{
+    text-align: center;
+    padding: 1.75%;
+}
+
+.blank-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.blank-box-container p{
+    width: 150px;
+    height: 150px;
+    border-radius: 15%;
+    border: blue solid 3px;
+}
+
+.box-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+}
+
+.box-text p{
+    width: 150px;
+}
+
 .quote-box{
     font-size: 36px;
     background-color: #E5E7EB;
     display: flex;
     flex-wrap: wrap;
-    padding: 4%;
+    padding: 4% 25%;
 }
 
 .quote{
-    padding: 5% 10%;
-    width: 1000px;
+    padding: 5% 5% 0 10%;
+    width: 1250px;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
     background-color: #E5E7EB;
-    display:inline-block;
-
+    display: inline-block;
 }
 
 .img{
@@ -102,12 +136,8 @@ header{
 
 .thor{
     font-size:24px;
-    font-weight:650;
-    text-align:right;
+    font-weight: 650;
+    text-align: right;
     display:inline-block;
-    padding: 0px 60px 0px 500px;
-}
-
-.random-info{
-    text-align: center;
+    padding: 0px 60px 0px 600px;
 }
