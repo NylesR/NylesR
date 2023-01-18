@@ -20,7 +20,7 @@ header{
     color: inherit;
     font-size: 24px;
     margin-right: auto;
-    padding: 0% 10%;
+    padding: 0% 20%;
 }
 
 .nav-links{
@@ -43,20 +43,35 @@ header{
 
 .under-header{
     background-color: #1F2937;
-    padding: 0% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 20%;
+    gap: 4%;
+}
+
+.left-under-header{
+
+}
+
+.right-under-header{
+    width: 500px;
+    height: 200px;
+    background-color: #778899;
+    text-align: center;
+    padding: 7.5%;
+}
+
+.right-under-header p{
+    color: #F9FAF8;
 }
 
 .hero-text{
     color: inherit;
     color: #F9FAF8;
-    width: 500px;
+    width: 450px;
     font-size: 48px;
     display: inline-block;
-}
-
-.img.middle-img{
-    margin-left: 1250px;
-    width: 25%;
 }
 
 .secondary-text{
